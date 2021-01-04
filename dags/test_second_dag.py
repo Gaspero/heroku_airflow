@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 
 dag = DAG(
-    'test_dag',
+    'test_second_dag',
     start_date=datetime.today() - timedelta(days=1),
     schedule_interval="1 * * * *"
 )
